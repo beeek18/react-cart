@@ -1,4 +1,4 @@
-import cross from '../../img/icons/cross.svg'
+import cross from '../../icons/cross.svg'
 
 
 export const ButtonDelete = ({ deleteProduct, id }) => {

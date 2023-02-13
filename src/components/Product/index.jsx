@@ -17,9 +17,9 @@ export const Product = ({
   changeValue
 }) => {
 
-
   return (
     <section className="product">
+
       <div className="product__img">
         <img src={img} alt={title} />
       </div>

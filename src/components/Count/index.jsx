@@ -1,8 +1,7 @@
 import './style.scss';
 
-import up from '../../img/icons/icon-up.svg'
-import down from '../../img/icons/icon-down.svg'
-
+import up from '../../icons/icon-up.svg'
+import down from '../../icons/icon-down.svg'
 
 export const Count = ({ count, increase, decrease, id, changeValue }) => {
   return (

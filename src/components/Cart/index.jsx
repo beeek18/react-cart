@@ -36,7 +36,6 @@ export const Cart = () => {
       });
   }, []);
 
-
   const deleteProduct = (id) => {
     setCart((cart) => cart.filter((item) => id !== item.id));
   };
@@ -91,25 +90,19 @@ export const Cart = () => {
   };
 
 
-
   return (
     <section className="cart">
       <CartHeader />
-      {cart.map((item) => (
-        <Product
-          key={item.id}
-          {...item}
-          deleteProduct={deleteProduct}
-          increase={increase}
-          decrease={decrease}
-          changeValue={changeValue}
-        />
+
+      {cart.map((item) => (<Product key={item.id}  {...item}
+        deleteProduct={deleteProduct}
+        increase={increase}
+        decrease={decrease}
+        changeValue={changeValue}
+      />
       ))}
 
-
       <CartFooter {...total} />
-
-
     </section>
   );
 };

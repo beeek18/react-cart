@@ -6,6 +6,7 @@ import './_section-cart.scss';
 import { Title } from '../Title';
 import { Cart } from '../Cart'
 
+
 function App() {
   return (
     <section className="section-cart">
