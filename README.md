@@ -1,4 +1,4 @@
-<h1>React Cart 🛒
+<h1>Cart 🛒
 
 <h4>
 <li>Axios
