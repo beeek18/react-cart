@@ -4,4 +4,5 @@
 <li>Axios
 <li>SCSS
 <li>Hooks useState, useEffect
-<li> React components
+<li>React components
+<li>Mobile adaptation 
